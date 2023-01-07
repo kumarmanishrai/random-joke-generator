@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Lobster;
+  src: url(./Lobster/Lobster-Regular.ttf);
+}
+.container {
+  height: 100vh;
+  min-width: 100vw;
+  background-color: rgba(135, 91, 238, 0.445);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  height: 70%;
+  width: 400px;
+  /* border: 2px solid blue; */
+  /* background-color: rgba(135, 91, 238, 0.445); */
+  opacity: 0.8;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainHead {
+  text-align: center;
+  padding: 5px;
+  font-size: 70px;
+  font-family: Lobster;
+}
+#joke {
+  min-height: 100px;
+  width: auto;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: 10%;
+  font-family: Lobster;
+}
+#btn {
+  height: 30px;
+  width: 100px;
+  position: relative;
+  top: 20%;
+  font-family: Lobster;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 0, 0.808);
+}
+#btn:hover {
+  background-color: rgb(255, 255, 0);
+}
+#emo {
+  height: 250px;
+  width: 250px;
+  z-index: -1;
+  opacity: 0.4;
+}
+.emoji1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.emoji2 {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
